@@ -30,7 +30,7 @@ Vagrant.configure(2) do |config|
   node_name = 'rr-qmk'
   # set the name of the VM as shown by virsh/virt-manager
   # Ref: https://github.com/vagrant-libvirt/vagrant-libvirt/issues/289
-  config.vm.define :node_name do |foo|
+  config.vm.define :'rr-qmk' do |foo|
   #
   end
 
